@@ -3,7 +3,8 @@
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 This has 'Nativewind' and 'Supabase' integration.
 
-In the services folder: 
+supabase setup:
+   - add/create a 'services' folder to hold the 'supabase file'. 
    - add/create filename 'supabase.ts' or 'supabase-client.ts'
    - then paste you're supabase account 'project-url' and 'anon-key'
    - then -> go 

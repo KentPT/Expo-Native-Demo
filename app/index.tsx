@@ -1,7 +1,7 @@
-import { Text, View, Pressable, TouchableOpacity } from "react-native";
+import { Pressable, Text, TouchableOpacity, View } from "react-native";
 // expo router: Link or useRouter
-import { Link, useRouter, Stack } from "expo-router";
-import "@/global.css"
+import "@/global.css";
+import { Link, Stack, useRouter } from "expo-router";
 
 export default function Index() {
   const router = useRouter();
@@ -10,11 +10,11 @@ export default function Index() {
     <Stack.Screen
       options={{
 
-        headerRight: () => (
-          <Pressable onPress={() => router.push('./demo')}>
-            <Text>Go to Demo!</Text>
-          </Pressable>
-        ),
+        // headerRight: () => (
+        //   <Pressable onPress={() => router.push('./demo')}>
+        //     <Text>Go to Demo!</Text>
+        //   </Pressable>
+        // ),
 
         headerLeft: () => (
           <Pressable onPress={() => router.push('./test')}>
